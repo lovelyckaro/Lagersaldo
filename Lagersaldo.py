@@ -30,7 +30,6 @@ def calculateShopInventory(actual_inventory, sales_lines, purchase_lines):
     result_array = [actual_inventory, 0, None]
     s = 0
     p = 0
-    print(sales_lines[0][0])
     # For every sale and purchase in chronological order
     while s < len(sales_lines) or p < len(purchase_lines):
         # If we've run out of purchases
